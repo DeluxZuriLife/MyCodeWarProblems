@@ -1,1 +1,69 @@
 
+function getGrade (s1, s2, s3) {
+  var s = (s1 + s2 + s3) / 3
+  return s >= 90 ? "A" : s >= 80 ? "B" : s >= 70 ? "C" : s >= 60 ? "D" : "F"
+}
+
+//Convert boolean values to strings 'Yes' or 'No'.
+//JavaScript:
+function boolToWord( bool ){
+ return bool ? "Yes" : "No"; 
+}
+//perams: boolean value (bool)
+//returns: string 'Yes' "No"
+//examp: ? 
+//psuedo:  : 
+
+
+//Opposite number
+//JavaScript:
+function opposite(number) {
+ return (-number) 
+}
+
+//Convert a Boolean to a String
+//JavaScript:
+function booleanToString(b){
+  return b ? 'true':'false'; 
+}
+
+
+//Keep up the hoop
+//JavaScript:
+function hoopCount (n) { 
+if ((n) >= 10){ 
+  return  "Great, now move on to tricks"; 
+} else { 
+   return "Keep at it until you get it"
+}   
+}
+
+//Multiply
+//JavaScript:
+function multiply(a, b){
+var ab = a * b 
+return ab
+} 
+// PREP 
+// Param: 
+// a, b 
+
+// results
+// product total  
+
+// example
+// a * b = ab
+// 5 * 3 = 15 
+
+// psuedo-code 
+//You Can't Code Under Pressure #1
+//JavaScript:
+function doubleInteger(i) {
+let doubleEye = i*(2)
+  return doubleEye;
+}
+// parameter: i is the parameter. 
+// returns: if you double the i then it'd be ii. 
+// psudocode: 
+// //let i = i(2)
+
